@@ -13,7 +13,7 @@ use App\Http\Controllers\StudentController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::resource('/student', StudentController::class);
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::resource('/', StudentController::class);
